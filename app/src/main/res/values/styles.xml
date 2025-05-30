@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Active Indicator -->
+    <style name="App.BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="marginHorizontal">8dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.BottomNavigation.ActiveIndicator</item>
+    </style>
+
+    <style name="ShapeAppearance.App.BottomNavigation.ActiveIndicator" parent="ShapeAppearance.Material3.NavigationBarView.ActiveIndicator">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.App.BottomNavigation" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Toolbar Theme -->
+    <style name="ThemeOverlay.App.Toolbar" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorPrimary">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+</resources>

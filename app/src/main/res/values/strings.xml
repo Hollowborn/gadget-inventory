@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gadget Inventory</string>
+    
+    <!-- Navigation -->
+    <string name="nav_detection">Detection</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_add">Add Gadget</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Gadget Form -->
+    <string name="gadget_name">Gadget Name</string>
+    <string name="gadget_model">Type</string>
+    <string name="gadget_condition">Condition</string>
+    <string name="gadget_purchase_date">Purchase Date</string>
+    <string name="gadget_value">Estimated Value</string>
+    <string name="gadget_image">Gadget Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose from Gallery</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Conditions -->
+    <string name="condition_good">Good</string>
+    <string name="condition_fair">Fair</string>
+    <string name="condition_poor">Poor</string>
+    
+    <!-- Settings -->
+    <string name="theme_title">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="confirm_reset">Are you sure you want to reset the database?</string>
+    
+    <!-- Messages -->
+    <string name="error_camera">Camera error occurred</string>
+    <string name="error_permission">Permission required</string>
+    <string name="error_save">Error saving gadget</string>
+    <string name="success_save">Gadget saved successfully</string>
+    <string name="required_field">This field is required</string>
+    <string name="update">Save Changes</string>
+    <string name="success_update">Gadget updated successfully</string>
+    
+    <!-- Object Detection -->
+    <string name="detection_hint">Point camera at gadgets</string>
+    <string name="detection_processing">Processing…</string>
+    <string name="detection_no_results">No gadgets detected</string>
+</resources> 

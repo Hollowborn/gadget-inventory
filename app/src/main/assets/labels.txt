@@ -1,0 +1,8 @@
+camera
+console
+laptop
+objects
+phone
+smartphone
+smartwatch
+vr

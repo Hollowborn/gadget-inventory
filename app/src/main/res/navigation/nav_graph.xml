@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_inventory">
+
+    <fragment
+        android:id="@+id/navigation_detection"
+        android:name="com.example.gadgetinventory.ui.detection.DetectionFragment"
+        android:label="@string/nav_detection" />
+
+    <fragment
+        android:id="@+id/navigation_inventory"
+        android:name="com.example.gadgetinventory.ui.inventory.InventoryFragment"
+        android:label="@string/nav_inventory">
+        <action
+            android:id="@+id/action_inventory_to_details"
+            app:destination="@id/navigation_details"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.gadgetinventory.ui.add.AddGadgetFragment"
+        android:label="@string/nav_add" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.gadgetinventory.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+    <fragment
+        android:id="@+id/navigation_details"
+        android:name="com.example.gadgetinventory.ui.details.GadgetDetailsFragment"
+        android:label="Gadget Details">
+        <argument
+            android:name="gadgetId"
+            app:argType="long" />
+    </fragment>
+
+</navigation> 
